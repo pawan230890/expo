@@ -329,7 +329,7 @@ jobs:
 
   docs:
     executor: nix
-    resource_class: large # TODO: Use less than 8Gib of ram to build a static site
+    resource_class: xlarge # TODO: Use less than 8Gib of ram to build a static site
     steps:
       - setup
       - update_submodules
